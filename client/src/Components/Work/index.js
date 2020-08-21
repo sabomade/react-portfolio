@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
 
-function About() {
+function Work() {
   return (
     <div className="jumbotron jumbotron-fluid">
       <div className="container">
-        <h1 className="display-3">About</h1>
+        <h1 className="display-3">Work</h1>
         <p className="lead">
           This is a modified jumbotron that occupies the entire horizontal space
           of its parent.
@@ -14,4 +14,4 @@ function About() {
     </div>
   );
 }
-export default About;
+export default Work;
