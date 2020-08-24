@@ -4,15 +4,18 @@ import Nav from "../../Components/Nav";
 import About from "../../Components/About";
 import Work from "../../Components/Work";
 import Contact from "../../Components/Contact";
+import { Container } from "../../Components/Grid";
 
 const Home = () => {
   return (
     <>
-      <Carousel />
-      <Nav />
-      <About />
-      <Work />
-      <Contact />
+      <Container fluid>
+        <Carousel />
+        <Nav />
+        <About />
+        <Work />
+        <Contact />
+      </Container>
     </>
   );
 };
