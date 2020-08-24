@@ -1,5 +1,5 @@
 .aboutRow {
-  margin: 50px auto;
+  margin: 100px auto;
 }
 .pic {
   height: 230px;
@@ -9,6 +9,10 @@
 .selfie {
   width: 230px;
   object-fit: cover;
+}
+.greet {
+  text-align: center;
+  align-self: center;
 }
 .sub {
   font-style: italic;

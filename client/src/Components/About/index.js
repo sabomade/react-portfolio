@@ -7,11 +7,16 @@ function About() {
     <section id="about" className="aboutRow">
       <Row>
         <Col size="md-4">
-          <img
-            src="assets/sb.jpg"
-            className="img-fluid selfie pic"
-            alt="sara bolduc"
-          />
+          <div class="card">
+            <img
+              class="card-img-top fluid selfie pic greet"
+              src="assets/sb.jpg"
+              alt="sara bolduc"
+            />
+            <div class="card-body">
+              <p class="card-text greet">Hi there, I'm Sara!</p>
+            </div>
+          </div>
         </Col>
         <Col size="md-6">
           <p className="lead">
