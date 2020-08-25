@@ -1,5 +1,6 @@
 import React from "react";
-import Carousel from "../../Components/Carousel";
+// import Carousel from "../../Components/Carousel";
+import Jumbotron from "../../Components/Jumbotron";
 import Nav from "../../Components/Nav";
 import About from "../../Components/About";
 import Work from "../../Components/Work";
@@ -11,11 +12,12 @@ const Home = () => {
   return (
     <>
       <Container fluid>
-        <Carousel />
+        <Jumbotron />
         <Nav />
         <About />
         <Quote />
         <Work />
+        <Quote />
         <Contact />
       </Container>
     </>
