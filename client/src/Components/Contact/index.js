@@ -1,17 +1,23 @@
 import React from "react";
 import "./style.css";
+import { Row, Col } from "../Grid";
 
 function Contact() {
   return (
-    <div className="jumbotron jumbotron-fluid">
-      <div className="container">
-        <h1 className="display-3">Contact</h1>
-        <p className="lead">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
-        </p>
-      </div>
-    </div>
+    <section id="contact" className="contactRow">
+      <Row>
+        <Col size="md-12">
+          <h1 className="display-5 contactLink">Say hello.</h1>
+        </Col>
+      </Row>
+      <Row>
+        <Col size="md-12">
+          <div className="contactLink">
+            <a href="#">Get in touch</a>
+          </div>
+        </Col>
+      </Row>
+    </section>
   );
 }
 export default Contact;

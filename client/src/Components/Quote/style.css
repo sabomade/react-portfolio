@@ -1,0 +1,17 @@
+.quoteRow {
+  margin: 50px auto;
+  background-color: #faf3dd;
+  background-image: url("../../quote.svg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quoteCol {
+  padding: 50px auto;
+}
+.quoteText {
+  font-family: "Amatic SC", cursive;
+  font-size: 75px;
+}

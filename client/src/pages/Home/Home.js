@@ -4,6 +4,7 @@ import Nav from "../../Components/Nav";
 import About from "../../Components/About";
 import Work from "../../Components/Work";
 import Contact from "../../Components/Contact";
+import Quote from "../../Components/Quote";
 import { Container } from "../../Components/Grid";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
         <Carousel />
         <Nav />
         <About />
+        <Quote />
         <Work />
         <Contact />
       </Container>
