@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "clicky-game",
+    "image": "assets/playClickyGame.gif",
+    "label": "Clicky Game",
+    "description": "This is a memory game created in React."
+  },
+  {
+    "id": 2,
+    "name": "kyndCo",
+    "image": "assets/signIn.gif",
+    "label": "KyndCo",
+    "description": "This app turns the idea of 'doing good' into a game and encourages users to compelte acts of kindness, unlocking badges and increasingly more complex acts of kindess the more 'good' they do."
+  },
+  {
+    "id": 3,
+    "name": "constructor-game",
+    "image": "assets/constructor_demo.gif",
+    "label": "Hangman",
+    "description": "A word guess command-line game using constructor functions."
+  },
+  {
+    "id": 4,
+    "name": "friend-finder",
+    "image": "assets/survey.gif",
+    "label": "Friend Finder",
+    "description": "A compatibility-based 'FriendFinder' application. This full-stack site takes in results from users' surveys, then compares their answers with those from other users. Upon submission of the survey, the app displays the name and picture of the user with the best overall match."
+  },
+  {
+    "id": 5,
+    "name": "bamazon",
+    "image": "assets/bamazonCustomer.gif",
+    "label": "Bamazon: Customer",
+    "description": "An Amazon-like storefront with MySQL. The app will take in orders from customers and display an updated stock from the store's inventory."
+  },
+  {
+    "id": 6,
+    "name": "liri-node",
+    "image": "assets/concert-this.gif",
+    "label": "Liri Node: Concerts",
+    "description": "Node JSLIRI is like iPhone's SIRI. LIRI is a Language Interpretation and Recognition Interface. This command line node app that takes in parameters and gives you back data."
+  }
+]

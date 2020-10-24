@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <>
       <Container fluid>
-        <Jumbotron />
         <Nav />
+        <Jumbotron />
         <About />
         <Quote />
         <Work />
