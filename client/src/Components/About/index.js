@@ -20,7 +20,7 @@ function About() {
         </Col>
         <Col size="md-6">
           <p className="lead">
-            <strong>Full Stack Developer</strong> <br />
+            <span className="head">Full Stack Developer</span> <br />
             <span className="sub">
               with experience in Maker Education, media, and film
             </span>
