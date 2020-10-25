@@ -14,6 +14,7 @@ const Home = () => {
       <Container fluid>
         <Nav />
         <Jumbotron />
+        <Quote />
         <About />
         <Quote />
         <Work />

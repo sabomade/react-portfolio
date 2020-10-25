@@ -7,14 +7,17 @@ function Jumbotron() {
   return (
     <>
       <Container>
-        <Row>
-          <div clasName="col-lg-3 pt-5 pt-lg-0 d-flex">
-            <h2>Sara Bolduc</h2>
-          </div>
-          <div className=" align-items-right justify-content-right">
-            <Carousel />
-          </div>
-        </Row>
+        <div className="jumbo-intro">
+          <Row>
+            <Col size="md-6">
+              <h2 className="title-name">Sara Bolduc</h2>
+              <p className="name-bio">Full Stack Developer | Maker Educator</p>
+            </Col>
+            <Col size="md-6">
+              <Carousel />
+            </Col>
+          </Row>
+        </div>
       </Container>
     </>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function Slide(props) {
   if (props.id === 1) {
@@ -11,7 +12,7 @@ function Slide(props) {
             src={props.image}
             data-holder-rendered="true"
           />
-          <div className="carousel-caption d-none d-md-block">
+          <div className="carousel-caption d-none d-md-block bg-dark">
             <h3>{props.label}</h3>
             <p>{props.description}</p>
           </div>
@@ -28,7 +29,7 @@ function Slide(props) {
             src={props.image}
             data-holder-rendered="true"
           />
-          <div className="carousel-caption d-none d-md-block">
+          <div className="carousel-caption d-none d-md-block bg-dark">
             <h3>{props.label}</h3>
             <p>{props.description}</p>
           </div>

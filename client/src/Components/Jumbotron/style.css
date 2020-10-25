@@ -1,1 +1,18 @@
-
+.jumbo-intro {
+  height: 600px;
+  margin: 50px auto;
+  padding: 20px 0px 50px 0px;
+}
+.title-name {
+  font-family: "Major Mono Display", monospace;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 150px;
+}
+.name-bio {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  padding-top: 15px;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+}

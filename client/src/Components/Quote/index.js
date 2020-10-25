@@ -8,7 +8,7 @@ function Quote() {
       <Row>
         <div className="quoteCol">
           <Col size="md-12">
-            <p> </p>
+            <p></p>
           </Col>
         </div>
       </Row>
