@@ -1,12 +1,15 @@
 .contactRow {
-  margin: 50px auto;
+  margin: 0px auto;
   justify-content: center;
   background-color: #5e6472;
   padding: 100px 0;
 }
 .contactLink {
   text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
 }
 #contact a {
   color: #b8f2e6;
+  font-weight: 300;
 }
