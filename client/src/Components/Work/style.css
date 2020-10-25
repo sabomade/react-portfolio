@@ -1,5 +1,7 @@
 .workRow {
   margin: 100px auto;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 .colContainer {
   display: flex;
@@ -7,4 +9,7 @@
 }
 .card {
   border: none;
+}
+.work-title {
+  font-weight: 600;
 }
