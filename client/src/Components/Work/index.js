@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Col, Row } from "../Grid";
+import { Link } from 'react-router-dom';
 
 function Work() {
   return (
@@ -19,9 +20,7 @@ function Work() {
                 <p class="card-text">
                   Full stack site design, development, & deployment
                 </p>
-                <a href="#!" class="">
-                  View Portfolio
-                </a>
+                <Link to="/portfolio">View Portfolio</Link>
               </div>
             </div>
           </Col>
