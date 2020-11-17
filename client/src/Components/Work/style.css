@@ -2,6 +2,7 @@
   margin: 100px auto;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
+  scroll-margin-top: 150px;
 }
 .colContainer {
   display: flex;

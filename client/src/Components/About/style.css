@@ -1,6 +1,7 @@
 .aboutRow {
   margin: 100px auto;
   font-family: "Roboto Slab", serif;
+  scroll-margin-top: 150px;
 }
 .pic {
   height: 230px;
